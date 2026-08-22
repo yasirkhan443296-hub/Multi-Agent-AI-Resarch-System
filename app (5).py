@@ -470,7 +470,7 @@ def main():
         st.header("Settings")
         model_name = st.selectbox(
             "Groq model",
-            ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"],
+            ["llama-3.3-70b-versatile", "llama-3.1-8b-instant","Qwen 3.6 27B"],
             index=0,
         )
         max_revisions = st.slider("Max revision cycles", 0, 3, 2)
