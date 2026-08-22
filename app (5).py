@@ -470,7 +470,7 @@ def main():
         st.header("Settings")
         model_name = st.selectbox(
             "Groq model",
-            ["llama-3.3-70b-versatile", "llama-3.1-8b-instant","llama-4-scout-17b-16e-instruct"],
+            ["llama-3.3-70b-versatile","openai/gpt-oss-120b", "llama-3.1-8b-instant","llama-4-scout-17b-16e-instruct"],
             index=0,
         )
         max_revisions = st.slider("Max revision cycles", 0, 3, 2)
