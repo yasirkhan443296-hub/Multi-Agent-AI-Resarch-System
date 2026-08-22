@@ -7,3 +7,4 @@ tavily-python
 beautifulsoup4
 python-dotenv
 requests
+pydantic
